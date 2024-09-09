@@ -136,9 +136,9 @@
 
 (is-sorted (quicksort (generate-random-integers 403 1 100)))
 
-(is-sorted (quicksort (generate-random-integers 40003 1 10)))
+(is-sorted (quicksort (generate-random-integers 40003 1 100)))
 
-(is-sorted (quicksort (generate-random-integers 400003 1 10)))
+(is-sorted (quicksort (generate-random-integers 400003 1 100)))
 
 "start timer"
 
